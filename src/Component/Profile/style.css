@@ -1,0 +1,62 @@
+.adress{
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing:0.1em;
+    text-align:center;
+    text-transform: lowercase;
+    font-size: 15pt;
+    font-variant: small-caps;
+}
+
+.fullName{  
+   letter-spacing:0.1em;
+    text-align:center;
+    text-transform: lowercase;
+    font-size: 25pt;
+    font-variant: small-caps;
+  }
+  
+
+.photo{
+    height: 300px;
+    width:250px;
+   clip-path:ellipse(50% 50%);
+}
+
+.photogit{
+    height: 300px;
+    width:250px;
+   clip-path:ellipse(50% 50%);
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: stretch;
+    border: 2px solid;
+  border-color:rgb(130, 190, 230) ;
+  padding: 25px 25px 25px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px #e2dede;;
+    width: 40%;
+
+}
+
+.profile:hover{
+    box-shadow: 0 5px 10px 0 #1b2734;
+    background-color: rgb(233, 233, 233);
+
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.copyright{
+    font-size: 16px;
+    color: #ababab;
+    text-align: center;
+    margin-top: 10px;
+}
