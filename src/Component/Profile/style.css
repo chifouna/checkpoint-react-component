@@ -1,6 +1,6 @@
 .adress{
     font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-    letter-spacing:0.1em;
+    letter-spacing:0.2em;
     text-align:center;
     text-transform: lowercase;
     font-size: 15pt;
@@ -8,7 +8,7 @@
 }
 
 .fullName{  
-   letter-spacing:0.1em;
+   letter-spacing:0.2em;
     text-align:center;
     text-transform: lowercase;
     font-size: 25pt;
@@ -38,14 +38,14 @@
   border-color:rgb(130, 190, 230) ;
   padding: 25px 25px 25px 25px;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px 0px #e2dede;;
+    box-shadow: 0px 5px 10px 0px grey;
     width: 40%;
 
 }
 
 .profile:hover{
     box-shadow: 0 5px 10px 0 #1b2734;
-    background-color: rgb(233, 233, 233);
+    background-color: grey;
 
 }
 .main{
@@ -56,7 +56,7 @@
 
 .copyright{
     font-size: 16px;
-    color: #ababab;
+    color: grey;
     text-align: center;
     margin-top: 10px;
 }
